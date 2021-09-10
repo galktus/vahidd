@@ -3,9 +3,9 @@
 # my.telegram.or 
 
 from pyrogram import Client
-api_id = 1074077
-api_hash = "d3d3602a5b6c1e2df56183c219816d55"
-bot_token = "1918422706:AAH-0K7diUxw2ftkSLVn2XczaN3HuHTYUOs"
+api_id = 8600804
+api_hash = "b434223c50f512421b86cda44d0a8775"
+bot_token = "1982205672:AAEAcAMxcPKQ3DtnIVSOLZa9D_AbtGS35Vo"
 app = Client('session_01',api_id=api_id,api_hash=api_hash,bot_token=bot_token)
 @app.on_message()
 def handel(Client,message):
